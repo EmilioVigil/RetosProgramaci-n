@@ -24,7 +24,7 @@ string.
     Ah, y no modifiques(mutes) el array original.
 */
 
-const gifts = ['cat', 'game', 'socks', 'a']
+const gifts = ['cat', 'game', 'socks']
 
 function wrapping(gifts) {
     const wrappedGift = [...gifts];
@@ -39,4 +39,3 @@ function wrapping(gifts) {
 }
 
 const wrapped = wrapping(gifts)
-console.log(wrapped)
